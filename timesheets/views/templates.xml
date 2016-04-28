@@ -1,0 +1,9 @@
+<openerp>
+    <data>
+    <template id="my_assets_id" name="website assets for my module" inherit_id="web.assets_backend">
+        <xpath expr="//script[@src='/hr_timesheet_sheet/static/src/js/timesheet.js']" position="after">
+            <link rel="stylesheet" href="/timesheet_on_off/static/css/css.css"/>
+        </xpath>
+    </template>
+    </data>
+</openerp>

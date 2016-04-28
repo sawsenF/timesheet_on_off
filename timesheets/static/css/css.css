@@ -1,0 +1,5 @@
+
+.openerp .oe_list_content > tbody > tr > td > button{
+	position: absolute;
+	left: 3px;
+}

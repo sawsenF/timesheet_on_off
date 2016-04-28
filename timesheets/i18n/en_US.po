@@ -1,0 +1,192 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* timesheetmds
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c-20160226\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-06 07:49+0000\n"
+"PO-Revision-Date: 2016-04-06 07:49+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: timesheetmds
+#: model:ir.ui.menu,name:timesheetmds.menu_hr_timesheet_all
+msgid "All timesheets"
+msgstr "Alls Timesheets"
+
+#. module: timesheetmds
+#: model:ir.model,name:timesheetmds.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Analytic Line"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.action_window
+msgid "Begin"
+msgstr "Begin"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_time_begin
+msgid "Begin Time"
+msgstr "Begin Times"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.action_window
+msgid "Company"
+msgstr "Company"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "Confirmed Timesheets"
+msgstr "Confirmed Timesheets"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "Department"
+msgstr "Department"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "Employees"
+msgstr "Employees"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.action_window
+msgid "End"
+msgstr "End"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_time_end
+msgid "End Time"
+msgstr "End Time"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_estimated
+msgid "Estimated"
+msgstr "Estimated"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "Group By"
+msgstr "Group By"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "In Draft"
+msgstr "In Draft"
+
+#. module: timesheetmds
+#: model:ir.actions.act_window,help:timesheetmds.act_hr_timesheet_sheet_my_timesheets
+msgid "New timesheet to approve."
+msgstr "New timesheet to approve."
+
+#. module: timesheetmds
+#: selection:account.analytic.line,kanban_state:0
+msgid "OFF"
+msgstr "OFF"
+
+#. module: timesheetmds
+#: selection:account.analytic.line,kanban_state:0
+msgid "ON"
+msgstr "ON"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_rendement
+msgid "Productivity"
+msgstr "Productivity"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.action_window
+msgid "Productivity %"
+msgstr "Productivity %"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_hr_timesheet_sheet_sheet_rendement_day
+msgid "Productivity/Day"
+msgstr "Productivity/Day"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.action_window
+msgid "Qt"
+msgstr "Qt"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_quantity
+msgid "Quantity of tasks"
+msgstr "Quantity of tasks"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "Search Timesheet"
+msgstr "Search Timesheet"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_kanban_state
+msgid "Status"
+msgstr "Status"
+
+#. module: timesheetmds
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_task_id
+msgid "Task"
+msgstr "Task"
+
+#. module: timesheetmds
+#: model:ir.model,name:timesheetmds.model_hr_timesheet_sheet_sheet
+#: model:ir.model.fields,field_description:timesheetmds.field_account_analytic_line_spent_time_task
+msgid "Timesheet"
+msgstr "Timesheet"
+
+#. module: timesheetmds
+#: model:ir.actions.act_window,help:timesheetmds.act_hr_timesheet_sheet_my_timesheets
+msgid "Timesheets can also be invoiced to customers, depending on the\n"
+"                configuration of each project's related contract."
+msgstr "Timesheets can also be invoiced to customers, depending on the\n"
+"                configuration of each project's related contract."
+
+#. module: timesheetmds
+#: model:ir.actions.act_window,name:timesheetmds.act_hr_timesheet_sheet_my_timesheets
+#: model:ir.actions.act_window,name:timesheetmds.hr_timesheet_action_from_department
+msgid "Timesheets to Approve"
+msgstr "Timesheets to Approve"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "To Approve"
+msgstr "To Approve"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.action_window
+msgid "Total"
+msgstr "Total"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "Unread Messages"
+msgstr "Unread Messages"
+
+#. module: timesheetmds
+#: model:ir.ui.view,arch_db:timesheetmds.view_hr_timesheet_sheet_filter
+msgid "Unvalidated Timesheets"
+msgstr "Unvalidated Timesheets"
+
+#. module: timesheetmds
+#: constraint:hr_timesheet_sheet.sheet:0
+msgid "You cannot have 2 timesheets that overlap!\n"
+"Please use the menu 'My Current Timesheet' to avoid this problem."
+msgstr "You cannot have 2 timesheets that overlap!\n"
+"Please use the menu 'My Current Timesheet' to avoid this problem."
+
+#. module: timesheetmds
+#: model:ir.actions.act_window,help:timesheetmds.act_hr_timesheet_sheet_my_timesheets
+msgid "You must record timesheets every day and confirm at the end\n"
+"                of the week. Once the timesheet is confirmed, it should be\n"
+"                validated by a manager."
+msgstr "You must record timesheets every day and confirm at the end\n"
+"                of the week. Once the timesheet is confirmed, it should be\n"
+"                validated by a manager."
+

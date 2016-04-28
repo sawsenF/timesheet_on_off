@@ -1,0 +1,30 @@
+<openerp>
+  <data>
+    <record id="timesheet_on_off.action_window" model="ir.ui.view">
+      <field name="name">account</field>
+      <field name="model">hr_timesheet_sheet.sheet</field>
+      <field name="inherit_id" ref="hr_timesheet_sheet.hr_timesheet_sheet_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='date']" position="before">
+            <button name="confirm1" string="ON"  type="object" attrs="{'invisible': [('state_on','=',1)]}" icon="gtk-no" />
+            <button name="confirm2" string="OFF"  type="object" attrs="{'invisible': [('state_on','=',0)]}" icon="gtk-yes" class="off"/>
+        </xpath>
+        <xpath expr="//field[@name='unit_amount']" position="before">
+            <field name="state_on"/>
+            <field name="time_begin" widget="float_time" string="Begin"/>
+            <field name="time_end" widget="float_time" string="End"/>
+        </xpath>
+
+      <field name="state_on" position="attributes">
+        <attribute name="invisible">True</attribute>
+      </field>
+      <field name="time_begin" position="attributes">
+        <attribute name="invisible">True</attribute>
+      </field>
+      <field name="time_end" position="attributes">
+        <attribute name="invisible">True</attribute>
+      </field>
+      </field>
+    </record>
+  </data>
+</openerp>
